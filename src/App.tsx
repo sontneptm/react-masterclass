@@ -1,13 +1,23 @@
 import styled from "styled-components";
 
-const Title = styled.h1`
-  color: red;
+const Wrapper = styled.h1`
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+`;
+
+const Box = styled.div`
+  width: 100px;
+  height: 100px;
 `;
 
 function App() {
   return (
     <div>
-      <Title>Seungmin Jeong</Title>
+      <Wrapper>Seungmin Jeong</Wrapper>
     </div>
   );
 }
